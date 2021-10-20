@@ -7,6 +7,7 @@ platform :ios, '10.0'
 
 target 'tuya-bizbundle-ios-sample-objc_Example' do
   pod 'SVProgressHUD'
+  pod 'TuyaSmartBaseKit', '~>3.28.0'  # 需要指定版本 ！！！
   pod 'TuyaSmartHomeKit'
   pod 'TuyaSmartActivatorBizBundle'
   pod 'TuyaSmartCameraPanelBizBundle'

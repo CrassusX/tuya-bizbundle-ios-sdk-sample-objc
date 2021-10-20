@@ -1,7 +1,7 @@
 {
     "config": {
-        "appId": <#AppId#>,
-        "tyAppKey": "<#AppKey#>",
+        "appId": "com.zwy.aijiankang",
+        "tyAppKey": "y7h44tsw4v3a5feajavm",
         "appScheme": "bizPackageSample",
         "needBle": true
     },

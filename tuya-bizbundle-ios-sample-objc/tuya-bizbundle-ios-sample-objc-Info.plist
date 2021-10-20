@@ -26,16 +26,16 @@
 	<string>need bluetooth peripheral</string>
 	<key>NSCameraUsageDescription</key>
 	<string>need open camera</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>need location</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>need location</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>need open location</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>need open microphone</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>need open photo library</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>need location</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>need location</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>

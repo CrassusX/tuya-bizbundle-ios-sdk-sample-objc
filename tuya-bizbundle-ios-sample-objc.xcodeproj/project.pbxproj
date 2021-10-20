@@ -367,7 +367,7 @@
 				ORGANIZATIONNAME = Tuya;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = 94JFPTRDN5;
+						DevelopmentTeam = SBZ8BNXTG6;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -470,7 +470,10 @@
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/TPCircularBuffer/TPCircularBuffer.framework",
 				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
+				"${PODS_ROOT}/TuyaAudioEngineSDK/Carthage/Build/iOS/TuyaAudioEngineSDK.framework",
 				"${PODS_ROOT}/TuyaCameraSDK/Carthage/Build/iOS/TuyaCameraSDK.framework",
+				"${PODS_ROOT}/TuyaFFmpegWrapper/Carthage/Build/iOS/TuyaFFmpegWrapper.framework",
+				"${PODS_ROOT}/TuyaP2PSDK/Carthage/Build/iOS/TuyaP2PSDK.framework",
 				"${PODS_ROOT}/TuyaSmartQUIC/Carthage/Build/iOS/TuyaSmartQUIC.framework",
 				"${PODS_ROOT}/TuyaSmartUtil/Carthage/Build/iOS/TuyaSmartUtil.framework",
 				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
@@ -494,7 +497,10 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TPCircularBuffer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TuyaAudioEngineSDK.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TuyaCameraSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TuyaFFmpegWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TuyaP2PSDK.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TuyaSmartQUIC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TuyaSmartUtil.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
@@ -518,6 +524,7 @@
 				"${PODS_CONFIGURATION_BUILD_DIR}/TYActivatorModule/Activator.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/TYAlertView/TYAlertView.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/TYAvatarEditKit/TYCropViewControllerBundle.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TYCameraDoorBellModule/TYCameraDoorBellModule.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/TYCameraPanelModule/TYCameraPanelModule.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/TYCameraRNPanelContext/TYCameraRNPanelContext.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/TYCameraSettingModule/TYCameraSettingModule.bundle",
@@ -575,10 +582,10 @@
 				"${PODS_CONFIGURATION_BUILD_DIR}/TYSmartSceneDefaultUISkin/TYSmartSceneDefaultUISkin.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/TYSmartSceneModule/TYSmartSceneModule.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/TYSmartUserCenterDefaultUISkin/TYSmartUserCenterDefaultUISkin.bundle",
-				"${PODS_ROOT}/TYTimerModule/TYTimerModule-2.4.5-bizbundle-3.27.5-1/Assets/resources/ty_timer_invalid_icon@2x.png",
-				"${PODS_ROOT}/TYTimerModule/TYTimerModule-2.4.5-bizbundle-3.27.5-1/Assets/resources/ty_timer_invalid_icon@3x.png",
-				"${PODS_ROOT}/TYTimerModule/TYTimerModule-2.4.5-bizbundle-3.27.5-1/Assets/resources/ty_timer_list_empty_icon@2x.png",
-				"${PODS_ROOT}/TYTimerModule/TYTimerModule-2.4.5-bizbundle-3.27.5-1/Assets/resources/ty_timer_list_empty_icon@3x.png",
+				"${PODS_ROOT}/TYTimerModule/TYTimerModule-2.4.5.1/Assets/resources/ty_timer_invalid_icon@2x.png",
+				"${PODS_ROOT}/TYTimerModule/TYTimerModule-2.4.5.1/Assets/resources/ty_timer_invalid_icon@3x.png",
+				"${PODS_ROOT}/TYTimerModule/TYTimerModule-2.4.5.1/Assets/resources/ty_timer_list_empty_icon@2x.png",
+				"${PODS_ROOT}/TYTimerModule/TYTimerModule-2.4.5.1/Assets/resources/ty_timer_list_empty_icon@3x.png",
 				"${PODS_CONFIGURATION_BUILD_DIR}/TYUIKit/TYUIKitLibraryRes.bundle",
 				"${PODS_ROOT}/TYUrlPredefined/TYUrlPredefined-0.2.102/Assets/resources/ty_route_config.json",
 				"${PODS_CONFIGURATION_BUILD_DIR}/TYValueAddedServiceModule/TYValueAddedServiceModule.bundle",
@@ -609,6 +616,7 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Activator.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TYAlertView.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TYCropViewControllerBundle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TYCameraDoorBellModule.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TYCameraPanelModule.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TYCameraRNPanelContext.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TYCameraSettingModule.bundle",
@@ -911,13 +919,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "tuya-bizbundle-ios-sample-objc_Example.entitlements";
-				DEVELOPMENT_TEAM = 94JFPTRDN5;
+				DEVELOPMENT_TEAM = SBZ8BNXTG6;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tuya-bizbundle-ios-sample-objc/tuya-bizbundle-ios-sample-objc-Prefix.pch";
 				INFOPLIST_FILE = "tuya-bizbundle-ios-sample-objc/tuya-bizbundle-ios-sample-objc-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tuya.smart;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwy.aijiankang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -930,13 +938,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "tuya-bizbundle-ios-sample-objc_Example.entitlements";
-				DEVELOPMENT_TEAM = 94JFPTRDN5;
+				DEVELOPMENT_TEAM = SBZ8BNXTG6;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tuya-bizbundle-ios-sample-objc/tuya-bizbundle-ios-sample-objc-Prefix.pch";
 				INFOPLIST_FILE = "tuya-bizbundle-ios-sample-objc/tuya-bizbundle-ios-sample-objc-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tuya.smart;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwy.aijiankang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
